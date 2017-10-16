@@ -39,7 +39,8 @@ sure that you register it with the *alias* of the service and not the service *n
     'eval'      => [
         'tagsManager' => 'app.article', // Manager, required
         'tagsCreate'  => false, // Allow to create tags, optional (true by default)
-        'tl_class'    => 'clr'
+        'tl_class'    => 'clr',
+        'maxItems'    => 5 // Limit maximum number of tags (null by default)
     ],
 ],
 ````
